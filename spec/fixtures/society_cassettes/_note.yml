@@ -1,0 +1,164 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://beta.teamlife.it:80/society/services/json
+    body: method=textnote.get&content[nid]=1489
+    headers: 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 03 Feb 2012 14:52:41 GMT
+      server:
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch
+      x-powered-by:
+      - PHP/5.2.6-1+lenny9
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Fri, 03 Feb 2012 14:52:41 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS813c66acc3a073464a54b2ff383083c2=e1cf65ff9c691952c8f0fb24c073cd73; expires=Sun,
+        26 Feb 2012 18:26:01 GMT; path=/
+      transfer-encoding:
+      - chunked
+    body: ! '{"#error":false,"#data":[{"nid":"1453","created":"1304505066","changed":"1304505066","title":"adotta
+      un approccio pi\u00fa diplomatico","body":"corresse e temper\u00f2 le frasi","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"4"}],"field_textnote_lchar":[{"value":"1"}],"field_textnote_fword":[{"value":"178"}],"field_textnote_lword":[{"value":"186"}],"field_textnote_fparagraph":[{"value":"21"}],"field_textnote_lparagraph":[{"value":"21"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1429","created":"1303157575","changed":"1323181203","title":"Ottimo
+      video sui principali concetti dietro ai Promessi Sposi:\nhttp:\/\/www.youtube.com\/watch?v=L0zsRfCK0dw","body":"1","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"1"}],"field_textnote_fword":[{"value":"3"}],"field_textnote_lword":[{"value":"3"}],"field_textnote_fparagraph":[{"value":"54"}],"field_textnote_lparagraph":[{"value":"54"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"8804562609"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1454","created":"1304505293","changed":"1304505293","title":"associazione
+      su base volontaria","body":"Liber Liber.","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"3"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"44"}],"field_textnote_lword":[{"value":"46"}],"field_textnote_fparagraph":[{"value":"77"}],"field_textnote_lparagraph":[{"value":"77"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1451","created":"1304439316","changed":"1304439316","title":"In
+      realt\u00e0 \u00e8 pi\u00fa un NON ubbidirla, Don Rodrigo ha tutta l''intenzione
+      di non ascoltare ci\u00f3 che Fra Cristoforo vuole dirgli n\u00e8 tanto meno
+      fare ci\u00f3 che gli chieder\u00e0","body":"- In che posso ubbidirla? - disse","name":"bob","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-3.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"14"}],"field_textnote_fparagraph":[{"value":"19"}],"field_textnote_lparagraph":[{"value":"19"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1302","created":"1296668596","changed":"1307690882","title":"Riferimento
+      al passato e all''infanzia del pritagonista ormai lintano nel tempo ...","body":"Vedere
+      la mia infanzia? Pi\u00f9 di dieci lustri me ne separano e i miei occhi presbiti
+      forse potrebbero arrivarci se la luce che ancora ne riverbera non fosse tagliata
+      da ostacoli d''ogni genere, vere alte montagne: i miei anni e qualche mia ora.","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"4"}],"field_textnote_fword":[{"value":"1"}],"field_textnote_lword":[{"value":"85"}],"field_textnote_fparagraph":[{"value":"18"}],"field_textnote_lparagraph":[{"value":"18"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"_id36087957"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1485","created":"1305807928","changed":"1305807928","title":"demo
+      trento","body":"Il 17 dicembre 1903, su una ventosa spiaggia del North Carolina
+      i fratelli Wright dimostrarono, per una durata appena inferiore ai cento secondi,
+      che un veicolo pi\u00f9 pesante dell\u2019aria, dotato di propulsione propria,
+      era in grado di volare. Fu un momento entusiasmante e la sua importanza venne
+      ampiamente compresa. Quasi immediatamente, ci fu un\u2019esplosione d\u2019interesse
+      per questa nuova tecnologia del volo umano, e un\u2019ondata di innovatori inizi\u00f2
+      a costruire su di essa.","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"144"}],"field_textnote_fparagraph":[{"value":"36"}],"field_textnote_lparagraph":[{"value":"36"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1476","created":"1305663525","changed":"1323181203","title":"Inizia
+      cos\u00ed il romanzo, pi\u00f9 famoso d''Italia","body":"Quel ramo del lago
+      di Como, che volge a mezzogiorno, tra due catene non interrotte di monti, tutto
+      a seni e a golfi, a seconda dello sporgere e del rientrare di quelli, vien,
+      quasi a un tratto, a ristringersi, e a prender corso e figura di fiume, tra
+      un promontorio a destra, e un''ampia costiera dall''altra parte;","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"6"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"114"}],"field_textnote_fparagraph":[{"value":"83"}],"field_textnote_lparagraph":[{"value":"83"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"8804562609"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1459","created":"1304517342","changed":"1306419844","title":"associazione
+      su base volontaria","body":"proemio a tutta l''opera.]\nNel mezzo del cammin
+      di nostra vita\nmi ritrovai per una selva oscura,\nch\u00e9 la diritta via era
+      smarrita.\nAhi quanto a dir qual","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"6"}],"field_textnote_lchar":[{"value":"1"}],"field_textnote_fword":[{"value":"90"}],"field_textnote_lword":[{"value":"10"}],"field_textnote_fparagraph":[{"value":"112"}],"field_textnote_lparagraph":[{"value":"121"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359729"}],"field_textnote_rating":[{"value":"4"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"1"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1460","created":"1304519606","changed":"1323181202","title":"a
+      che scopo","body":"premi de le virt\u00f9. Comincia il canto primo de la prima
+      parte la quale si chiama Inferno, nel qual l''auttore fa proemio a tutta l''opera.]\nNel
+      mezzo del cammin di nostra vita\nmi ritrovai per una selva oscura,\nch\u00e9
+      la diritta via era smarrita.","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"1"}],"field_textnote_lchar":[{"value":"8"}],"field_textnote_fword":[{"value":"48"}],"field_textnote_lword":[{"value":"12"}],"field_textnote_fparagraph":[{"value":"112"}],"field_textnote_lparagraph":[{"value":"118"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359729"}],"field_textnote_rating":[{"value":"4"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1315","created":"1297205533","changed":"1297205533","title":"Per
+      la fantasia do Alice senza immagini e dialoghi ha poco senso","body":"Alice
+      cominciava a sentirsi mortalmente stanca di sedere sul poggio, accanto a sua
+      sorella, senza far nulla: una o due volte aveva gittato lo sguardo sul libro
+      che leggeva sua sorella, ma non c''erano imagini n\u00e8 dialoghi, \"e a che
+      serve un libro,\" pens\u00f2 Alice,","name":"apigato","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-663.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"10"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"98"}],"field_textnote_fparagraph":[{"value":"270"}],"field_textnote_lparagraph":[{"value":"270"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"http:\/\/www.gutenberg"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1284","created":"1295339875","changed":"1295339875","title":"Interessante
+      notare lo stile \"basso\" nel canto di Ciacco dell''Anguillara","body":"<p>Noi
+      passavam su per l''ombre che  \t\tadona<br \/>\r\nla greve pioggia, e ponavam
+      le piante<br \/>\r\nsovra lor vanit&agrave; che par persona.<\/p>\r\n<p>Elle
+      giacean per terra tutte quante,<br \/>\r\nfuor d''una ch''a seder si lev&ograve;,
+      ratto<br \/>\r\nch''ella ci vide passarsi davante.<\/p>\r\n<p>&laquo;O tu che
+      se'' per questo ''nferno tratto&raquo;,<br \/>\r\nmi disse, &laquo;riconoscimi,
+      se sai:<br \/>\r\ntu fosti, prima ch''io disfatto, fatto&raquo;.<\/p>","name":"fmondin","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-576.jpg","field_textnote_fchar":[{"value":null}],"field_textnote_lchar":[{"value":null}],"field_textnote_fword":[{"value":null}],"field_textnote_lword":[{"value":null}],"field_textnote_fparagraph":[{"value":null}],"field_textnote_lparagraph":[{"value":null}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788881234578"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1450","created":"1304438223","changed":"1304438223","title":"A
+      che scopo?","body":"corresse e temper\u00f2 le frasi","name":"charles","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-10.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"178"}],"field_textnote_lword":[{"value":"186"}],"field_textnote_fparagraph":[{"value":"21"}],"field_textnote_lparagraph":[{"value":"21"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1271","created":"1292426387","changed":"1298640821","title":"Chi????","body":"Thomas
+      Lee e Tinie Causby","name":"charles","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-10.png","field_textnote_fchar":[{"value":"61"}],"field_textnote_lchar":[{"value":"86"}],"field_textnote_fword":[{"value":"10"}],"field_textnote_lword":[{"value":"48"}],"field_textnote_fparagraph":[{"value":"4"}],"field_textnote_lparagraph":[{"value":"4"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1430","created":"1303193481","changed":"1323181203","title":"Si
+      inizia con il dimostrare  sogno dell''uomo: volare","body":"Il 17 dicembre 1903,
+      su una ventosa spiaggia del North Carolina i fratelli Wright dimostrarono, per
+      una durata appena inferiore ai cento secondi, che un veicolo pi\u00f9 pesante
+      dell\u2019aria, dotato di propulsione propria, era in grado di volare.","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"76"}],"field_textnote_fparagraph":[{"value":"36"}],"field_textnote_lparagraph":[{"value":"36"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1283","created":"1295339119","changed":"1295339119","title":"In
+      questa parte il libro rende meglio l''idea rispetto al film! ","body":"<p>Alice
+      viene presentata come una bambina di sette anni che pur odiando la scuola di
+      sci e non mostrando alcuna attitudine particolare per questo sport, viene  costretta
+      a frequentarne un corso dal padre, che nutre grandi  aspettative nei suoi confronti.
+      Una mattina, Alice si separa dal resto  del gruppo e, nel tentativo di tornare
+      a valle, finisce in un dirupo  rimanendo gravemente ferita. La ragazza rimarr&agrave;
+      zoppa per il resto della  vita.<\/p>\r\n<p>Mattia &egrave; un bambino dotato
+      ed intelligentissimo, al contrario della gemella Michela che invece &egrave;
+      affetta da una grave forma di autismo.  Isolato dal resto dei coetanei per via
+      della sua &quot;scomoda&quot; sorella,  Mattia vive la propria infanzia in solitudine.
+      Poi, un giorno, per poter  partecipare alla festa di compleanno di un compagno
+      di classe, lascia  la sorella in un parco, pensando di andarla a riprendere
+      pi&ugrave; tardi. Ma  al suo ritorno Michela &egrave; scomparsa, probabilmente
+      annegata in un fiume  vicino.<\/p>\r\n<p>&nbsp;<\/p>","name":"fmondin","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-576.jpg","field_textnote_fchar":[{"value":null}],"field_textnote_lchar":[{"value":null}],"field_textnote_fword":[{"value":null}],"field_textnote_lword":[{"value":null}],"field_textnote_fparagraph":[{"value":null}],"field_textnote_lparagraph":[{"value":null}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788852014062"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1433","created":"1303219044","changed":"1303219044","title":"Se
+      fosse ancora cos\u00ed il traffico aereo non esisterebbe","body":"All\u2019epoca
+      in cui i fratelli Wright inventarono l\u2019aeroplano, la legislazione americana
+      sosteneva che il proprietario di un terreno ne possedeva di conseguenza non
+      soltanto la superficie, ma tutta la terra al di sotto, fino al centro della
+      terra, e tutto lo spazio al di sopra, \u201cfino a un\u2019estensione indefinita,
+      verso l\u2019alto\u201d\u00a0 1 . Per","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"108"}],"field_textnote_fparagraph":[{"value":"38"}],"field_textnote_lparagraph":[{"value":"38"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1434","created":"1303220928","changed":"1323181203","title":"Anche
+      i giacimenti di diamanti?","body":"<p>a un&rsquo;estensione indefinita, verso
+      l&rsquo;alto&rdquo;&nbsp; 1 . Per molti anni, gli studiosi si erano chiesti
+      come interpretare correttamente l&rsquo;idea che i diritti sulla terra potessero
+      estendersi fino al cielo. Ci&ograve; significava forse che si possedevano anche
+      le stelle? Si potevano denunciare le oche per le continue e volontarie violazioni?
+      Poi arrivarono gli aeroplani, e per la prima volta questo principio della legislazione
+      americana - profondamente innestato nella tradizione, e riconosciuto da gran
+      parte dei maggiori studiosi di diritto del passato - divenne importante. Se
+      il mio terreno arriva fino al cielo, che cosa succede quando la United ci vola
+      sopra? Ho il diritto di vietarne il passaggio sulla mia propriet&agrave;? Mi
+      &egrave; consentito firmare una licenza esclusiva con Delta Airlines? Possiamo
+      organizzare un&rsquo;asta pubblica per decidere il valore di tali diritti?<\/p>","name":"bob","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-3.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"8"}],"field_textnote_fword":[{"value":"94"}],"field_textnote_lword":[{"value":"164"}],"field_textnote_fparagraph":[{"value":"38"}],"field_textnote_lparagraph":[{"value":"40"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1435","created":"1303221072","changed":"1303221072","title":"interessante
+      davvero! cosa ne pensate?","body":"a un\u2019estensione indefinita, verso l\u2019alto\u201d\u00a0
+      1 . Per molti anni, gli studiosi si erano chiesti come interpretare correttamente
+      l\u2019idea che i diritti sulla terra potessero estendersi fino al cielo. Ci\u00f2
+      significava forse che si possedevano anche le stelle? Si potevano denunciare
+      le oche per le continue e volontarie violazioni?\nPoi arrivarono gli aeroplani,
+      e per la prima volta questo principio della legislazione americana - profondamente
+      innestato nella tradizione, e riconosciuto da gran parte dei maggiori studiosi
+      di diritto del passato - divenne importante. Se il mio terreno arriva fino al
+      cielo, che cosa succede quando la United ci vola sopra? Ho il diritto di vietarne
+      il passaggio sulla mia propriet\u00e0? Mi \u00e8 consentito firmare una licenza
+      esclusiva con Delta Airlines? Possiamo organizzare un\u2019asta pubblica per
+      decidere il valore di tali diritti?","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"1"}],"field_textnote_lchar":[{"value":"8"}],"field_textnote_fword":[{"value":"94"}],"field_textnote_lword":[{"value":"164"}],"field_textnote_fparagraph":[{"value":"38"}],"field_textnote_lparagraph":[{"value":"40"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9733344455789"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1431","created":"1303193888","changed":"1306314811","title":"Gi\u00e0
+      da questo prologo iniziale si vede come il Manzoni user\u00e0 il romanzo per
+      narrare degli avvenimenti storici del tempo!","body":"\u00abL''Historia si pu\u00f2
+      veramente deffinire una guerra illustre contro il Tempo, perch\u00e8 togliendoli
+      di mano gl''anni suoi prigionieri, anzi gi\u00e0 fatti cadaueri, li richiama
+      in vita, li passa in rassegna, e li schiera di nuovo in battaglia.","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"7"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"74"}],"field_textnote_fparagraph":[{"value":"57"}],"field_textnote_lparagraph":[{"value":"57"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"8804562609"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"1"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1452","created":"1304499969","changed":"1304499969","title":"da
+      progetto Manunzio","body":"EDIZIONE ELETTRONICA","name":"belluati","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-11.jpg","field_textnote_fchar":[{"value":"2"}],"field_textnote_lchar":[{"value":"7"}],"field_textnote_fword":[{"value":"4"}],"field_textnote_lword":[{"value":"6"}],"field_textnote_fparagraph":[{"value":"43"}],"field_textnote_lparagraph":[{"value":"43"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1447","created":"1304436616","changed":"1304436616","title":"Don
+      Rodrigo pronucia questa frase di circostanza con tono minaccioso per far subito
+      intendere al suo interlocutore la sua poca disponibilit\u00e0 al dialogo","body":"-
+      In che posso ubbidirla? - disse don Rodrigo, piantandosi in piedi nel mezzo
+      della sala. Il suono delle parole era tale; ma il modo con cui eran proferite,
+      voleva dir chiaramente: bada a chi sei davanti, pesa le parole, e sbrigati.","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"9"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"84"}],"field_textnote_fparagraph":[{"value":"19"}],"field_textnote_lparagraph":[{"value":"19"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1448","created":"1304437785","changed":"1304437785","title":"\"ubbidirla\"
+      o \"NON ubbidirla\"?","body":"- In che posso ubbidirla? -","name":"charles","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-10.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"1"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"12"}],"field_textnote_fparagraph":[{"value":"19"}],"field_textnote_lparagraph":[{"value":"19"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1449","created":"1304437930","changed":"1304437930","title":"Commenta
+      questo passaggio","body":"Per dar coraggio al nostro fra Cristoforo, non c''era
+      mezzo pi\u00f9 sicuro e pi\u00f9 spedito,","name":"charles","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-10.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"2"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"30"}],"field_textnote_fparagraph":[{"value":"21"}],"field_textnote_lparagraph":[{"value":"21"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"urn:uuid:406ea2da-46"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1424","created":"1303144437","changed":"1307690882","title":"Cantami
+      o dea l''ira funesta di Achille, figlio di Peleo, che port\u00f2 agli Achei
+      infiniti lutti e travolse molte anime di eroi anzi tempo","body":"Cantami, o
+      Diva, del Pel\u00ecde Achille\nl''ira funesta che infiniti addusse\nlutti agli
+      Achei, molte anzi tempo all''Orco\ngenerose travolse alme d''eroi,","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"7"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"8"}],"field_textnote_fparagraph":[{"value":"86"}],"field_textnote_lparagraph":[{"value":"92"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1425","created":"1303144690","changed":"1307690882","title":"e
+      abbandon\u00f2 le loro anime generose all''orco (la morte), orrido pasto per
+      cani ed uccelli (affinch\u00e9 si adempisse l''alta decisione di Giove) da quando
+      distacc\u00f2 per la prima volta, per un''aspra contesa, il re dei prodi Atride
+      ed il divino Achille.","body":"e di cani e d''augelli orrido pasto\nlor salme
+      abbandon\u00f2 (cos\u00ec di Giove\nl''alto consiglio s''ademp\u00eca), da quando\nprimamente
+      disgiunse aspra contesa\nil re de'' prodi Atride e il divo Achille.","name":"bob","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-3.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"8"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"18"}],"field_textnote_fparagraph":[{"value":"94"}],"field_textnote_lparagraph":[{"value":"102"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"1"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1426","created":"1303145639","changed":"1323181203","title":"Chi
+      tra gli dei li fece lottare?  Apollo; egli, arrabbiato con Agamennone,  diffuse
+      una pestilenza nel campo dei greci, la gente moriva  ","body":"E qual de'' numi
+      inimicolli? Il figlio di Latona e di Giove. Irato al Sire dest&ograve; quel
+      Dio nel campo un feral morbo, e la gente per&igrave;a:","name":"oscar","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-171.jpg","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"2"}],"field_textnote_lword":[{"value":"8"}],"field_textnote_fparagraph":[{"value":"104"}],"field_textnote_lparagraph":[{"value":"110"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"5"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1427","created":"1303145808","changed":"1303145808","title":"perch\u00e8
+      Agamennone l''atride tratt\u00f2 molto male, \nil sacerdote; costui and\u00f2
+      alle veloci navi dei Greci \nper liberare la figlia, con riscatto infinito,\n\n","body":"colpa
+      d''Atride\nche fece a Crise sacerdote oltraggio.\nDegli Achivi era Crise alle
+      veloci\nprore venuto a riscattar la figlia\ncon molto prezzo.","name":"alice","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-4.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"5"}],"field_textnote_fword":[{"value":"10"}],"field_textnote_lword":[{"value":"6"}],"field_textnote_fparagraph":[{"value":"110"}],"field_textnote_lparagraph":[{"value":"118"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":null}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1428","created":"1303145978","changed":"1323181203","title":"avendo
+      le insegne sacre di Apollo, intorno allo scettro d''oro, e pregava tutti i Greci
+      ma soprattutto \nAgamennone e Menelao, capi dell''esercito:\n\n","body":"In
+      man le bende avea,\ne l''aureo scettro dell''arciero Apollo:\ne agli Achei tutti
+      supplicando, e in prima\nai due supremi condottieri Atridi:","name":"charles","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-10.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"7"}],"field_textnote_fword":[{"value":"8"}],"field_textnote_lword":[{"value":"10"}],"field_textnote_fparagraph":[{"value":"118"}],"field_textnote_lparagraph":[{"value":"124"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359736"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":null}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":null}]},{"nid":"1489","created":"1328226558","changed":"1328226558","title":"First
+      note","body":"first_word","name":"dgiorgini","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-664.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"1"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"1"}],"field_textnote_fparagraph":[{"value":"0"}],"field_textnote_lparagraph":[{"value":"0"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}]},{"nid":"1487","created":"1306417712","changed":"1306418360","title":"associazioni
+      su basi volontarie","body":"gi\u00e0 de'' raggi del pianeta\nche mena dritto
+      altrui per ogne calle.\nAllor fu la paura un poco queta,","name":"bob","picture":"sites\/8080.192.168.93.161.society.teamlife\/files\/pictures\/picture-3.png","field_textnote_fchar":[{"value":"1"}],"field_textnote_lchar":[{"value":"6"}],"field_textnote_fword":[{"value":"4"}],"field_textnote_lword":[{"value":"14"}],"field_textnote_fparagraph":[{"value":"147"}],"field_textnote_lparagraph":[{"value":"151"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"9788890359729"}],"field_textnote_rating":[{"value":null}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}]}]}'
+    http_version: '1.1'
