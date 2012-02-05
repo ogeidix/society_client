@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.authors     = ["ogeidix"]
   s.email       = ["diegogiorgini@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{HTTP Client to access Telecom Italia Society API}
+  s.description = %q{This gem permit to access to the API of the project Society developed by Telecom Italian.}
 
-  s.rubyforge_project = "society_client"
+#  s.rubyforge_project = "society_client"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
