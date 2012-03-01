@@ -1,3 +1,3 @@
-module SocietyClient
-  VERSION = "0.1"
+class SocietyClient
+  VERSION = "0.2"
 end
