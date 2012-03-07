@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
  
 describe SocietyClient do
-  before { VCR.insert_cassette 'client', :record => :once,  :match_requests_on => [:body] }
+  before { VCR.insert_cassette 'client', :record => :none,  :match_requests_on => [:body] }
   after  { VCR.eject_cassette }
  
   context "default httparty attributes" do

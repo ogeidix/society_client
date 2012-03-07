@@ -1,0 +1,78 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=services_oauth.login
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:03:20 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:03:20 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '83'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=4816bnonjaql60vrgi6gmt26e7; expires=Fri,
+        30-Mar-2012 05:36:40 GMT; path=/
+      - SESS3bfe25be19162524e4067a1f3a2ca965=e1eolveslrj232eohg161lq881; expires=Fri,
+        30-Mar-2012 05:36:45 GMT; path=/
+    body: ! '{"#error":false,"#data":{"sessid":"e1eolveslrj232eohg161lq881","is_professor":"1"}}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.save&content={"isbn":"wecampus-test1","is_TTS":0,"is_public":1,"username":"wecampus","note":"Second
+      note","text":"second_word","firstParagraph":2,"firstWord":0,"firstChar":0,"lastParagraph":2,"lastWord":0,"lastChar":0}&sessid=e1eolveslrj232eohg161lq881
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:03:26 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:03:26 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '31'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=p5nqmev3lhrf4hgee3me314i81; expires=Fri,
+        30-Mar-2012 05:36:46 GMT; path=/
+    body: ! '{"#error":false,"#data":"2829"}'
+    http_version: '1.1'

@@ -1,0 +1,239 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=services_oauth.login
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:17 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:17 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '83'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=lfuv10tui6hva88ifpl91jbo84; expires=Fri,
+        30-Mar-2012 05:53:38 GMT; path=/
+      - SESS3bfe25be19162524e4067a1f3a2ca965=tspc8v360jl3dt2hist7hibl15; expires=Fri,
+        30-Mar-2012 05:53:37 GMT; path=/
+    body: ! '{"#error":false,"#data":{"sessid":"lfuv10tui6hva88ifpl91jbo84","is_professor":"1"}}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.get&content={"isbn":"wecampus-test1"}&sessid=lfuv10tui6hva88ifpl91jbo84
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:18 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:18 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '2324'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=q1n5idg98ejk7033ddnlgl2923; expires=Fri,
+        30-Mar-2012 05:53:38 GMT; path=/
+    body: ! '{"#error":false,"#data":[{"nid":"2829","created":"1331085806","changed":"1331085806","title":"Second
+      note","body":"second_word","name":"apigato","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-663.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"2"}],"field_textnote_lparagraph":[{"value":"2"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"Second
+      note"}]},{"nid":"2830","created":"1331086110","changed":"1331086110","title":"First
+      note","body":"first_word","name":"dgiorgini","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-664.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"1"}],"field_textnote_lparagraph":[{"value":"1"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"First
+      note"}]}]}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.get&content={"username":"apigato","isbn":"wecampus-test1"}&sessid=lfuv10tui6hva88ifpl91jbo84
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:19 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:19 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '820'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=9mdvtg6et3hac1n09khootl7r6; expires=Fri,
+        30-Mar-2012 05:53:39 GMT; path=/
+    body: ! '{"#error":false,"#data":[{"nid":"2829","created":"1331085806","changed":"1331085806","title":"Second
+      note","body":"second_word","name":"apigato","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-663.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"2"}],"field_textnote_lparagraph":[{"value":"2"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"Second
+      note"}]}]}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.get&content={"firstParagraph":"2","isbn":"wecampus-test1"}&sessid=lfuv10tui6hva88ifpl91jbo84
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:20 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:20 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '820'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=5qck0kgbg72135csobcg2n6a83; expires=Fri,
+        30-Mar-2012 05:53:40 GMT; path=/
+    body: ! '{"#error":false,"#data":[{"nid":"2829","created":"1331085806","changed":"1331085806","title":"Second
+      note","body":"second_word","name":"apigato","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-663.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"2"}],"field_textnote_lparagraph":[{"value":"2"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"Second
+      note"}]}]}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.get&content={"lastParagraph":"2","isbn":"wecampus-test1"}&sessid=lfuv10tui6hva88ifpl91jbo84
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:20 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:21 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '2324'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=fgt8cnorruf0p9u0f1lv51tln1; expires=Fri,
+        30-Mar-2012 05:53:40 GMT; path=/
+    body: ! '{"#error":false,"#data":[{"nid":"2829","created":"1331085806","changed":"1331085806","title":"Second
+      note","body":"second_word","name":"apigato","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-663.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"2"}],"field_textnote_lparagraph":[{"value":"2"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"Second
+      note"}]},{"nid":"2830","created":"1331086110","changed":"1331086110","title":"First
+      note","body":"first_word","name":"dgiorgini","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-664.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"1"}],"field_textnote_lparagraph":[{"value":"1"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"First
+      note"}]}]}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :post
+    uri: http://society-school.teamlife.it:80/services/json
+    body: method=textnote.get&content={"firstParagraph":"1","lastParagraph":"1","isbn":"wecampus-test1"}&sessid=lfuv10tui6hva88ifpl91jbo84
+    headers:
+      authorization:
+      - OAuth oauth2token
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 07 Mar 2012 02:20:21 GMT
+      server:
+      - Apache/2.2.16 (Ubuntu)
+      x-powered-by:
+      - PHP/5.3.3-1ubuntu9.7
+      expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified:
+      - Wed, 07 Mar 2012 02:20:21 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '819'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - SESS3bfe25be19162524e4067a1f3a2ca965=1v5mjea4f1tucsgcirunv8i155; expires=Fri,
+        30-Mar-2012 05:53:41 GMT; path=/
+    body: ! '{"#error":false,"#data":[{"nid":"2830","created":"1331086110","changed":"1331086110","title":"First
+      note","body":"first_word","name":"dgiorgini","picture":"sites\/192.168.93.171.society.teamlife\/files\/pictures\/picture-664.png","field_textnote_fchar":[{"value":"0"}],"field_textnote_lchar":[{"value":"0"}],"field_textnote_fword":[{"value":"0"}],"field_textnote_lword":[{"value":"0"}],"field_textnote_fparagraph":[{"value":"1"}],"field_textnote_lparagraph":[{"value":"1"}],"field_textnote_ispublic":[{"value":"1"}],"field_textnote_parent_isbn":[{"value":"wecampus-test1"}],"field_textnote_rating":[{"value":"0"}],"field_textnote_user_rating":[{"value":"0"}],"field_textnote_voted":[{"value":"0"}],"field_textnote_is_tts":[{"value":"0"}],"field_page":[{"value":null}],"field_annotation_body":[{"value":"First
+      note"}]}]}'
+    http_version: '1.1'

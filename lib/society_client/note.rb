@@ -5,8 +5,9 @@ class SocietyClient::Note
     def initialize(client, options = {})
       @client = client
       self.is_TTS = 0
-      self.is_TTS = 1      
+      self.is_public = 1      
       self.document_location = {}
+      self.username = @client.username
       options.each { |k,v| self.send("#{k}=".to_sym,v) if self.respond_to?(k) }
     end
    
@@ -18,10 +19,10 @@ class SocietyClient::Note
       return true
     end
    
-    def destroy!
-      @client.send_query 'texnote.delete', {nid: id}
-      return true
-    end
+    # def destroy!
+    #   @client.send_query 'texnote.delete', {nid: id}
+    #   return true
+    # end
     
     def document_location=(location)
       @document_location =  {firstParagraph: 0, firstWord: 0, firstChar: 0, lastParagraph: 0, lastWord: 0, lastChar: 0}.merge(location)
