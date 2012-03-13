@@ -10,6 +10,12 @@ class SocietyClient::Note
       self.username = @client.username
       options.each { |k,v| self.send("#{k}=".to_sym,v) if self.respond_to?(k) }
     end
+    
+    def as_json(options={})
+      { id: id, isbn: isbn, document_location: document_location, username: username,
+        body: body, related_text: related_text, rating: rating, created_at: created_at,
+        is_TTS: is_TTS, ranking: ranking }
+    end
    
     def save!
       raise "Cannot save note because already persisted" if persisted?
