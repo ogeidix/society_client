@@ -1,1 +1,1 @@
-rvm ruby-1.9.3-p0@society_client --create
+rvm ruby-1.9.3-p125@society_client --create
